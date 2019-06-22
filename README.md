@@ -1,4 +1,7 @@
 # Meteor - WordPress Starter Theme
+![Meteor WordPress Starter Theme](https://raw.githubusercontent.com/Ishay-Semdev/meteor/master/screenshot.png)
+
+
 A Secure &amp; Agile WordPress Starter Theme. This theme provides the basic wordpress development setup. As developers we are all familiaer with
 the pre development time that is spent on projects while creating a set up for theme development.
 We perform a basic list of things, such as:
