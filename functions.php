@@ -22,3 +22,13 @@ add_action('wp_enqueue_scripts', 'theme_scripts');
 function theme_scripts(){
         wp_enqueue_script('theme-js', THEME_JS.'/main.js', array('jquery'),'' ,true);
 }
+/* SECURITY: RESTRICT REST API FROM PUBLIC ONLY TO LOGGED IN USERS */
+add_filter( 'rest_authentication_errors', function( $result ) {
+    if ( ! empty( $result ) ) {
+        return $result;
+    }
+    if ( ! is_user_logged_in() ) {
+        return new WP_Error( 'rest_not_logged_in', 'You are not currently logged in.', array( 'status' => 401 ) );
+    }
+    return $result;
+});
