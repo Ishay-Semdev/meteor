@@ -24,4 +24,4 @@ and more tasks. The Meteor Starter Theme comes with all of these set up for you.
 - Constants defined for easy usage while developing.
 - REST API restricted for security reasons, ONLY LOGGED ON USERS
 
-You can visit the dedicated page for this theme here: [Meteor Website](https://codelikepro.com/meteor-starter-theme/)
+You can visit the dedicated page for this theme here: [Meteor Website](https://codelikepro.com/meteor-wordpress-starter-theme/)
